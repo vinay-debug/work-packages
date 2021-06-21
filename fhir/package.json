@@ -1,0 +1,46 @@
+{
+  "name": "fhir-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc --w",
+    "start": "tsc && ts-node --files ./src/main.ts",
+    "lint": "eslint ./src/*",
+    "lint:fix": "eslint ./src/* --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "keywords": [
+    "EHR",
+    "FHIR",
+    "data",
+    "storage"
+  ],
+  "author": "Kiran Kharade",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "googleapis": "^77.0.0",
+    "needle": "^2.6.0",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/fs-extra": "^9.0.11",
+    "@types/node": "^14.17.0",
+    "@types/shelljs": "^0.8.8",
+    "@types/validator": "^13.1.3",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
