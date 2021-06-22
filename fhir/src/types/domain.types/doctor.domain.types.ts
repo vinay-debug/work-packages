@@ -1,5 +1,5 @@
 import { AddressDomainModel } from './address.domain.types';
-import { AppointmentDomainModel } from './appointment.domain.types';
+import { AppointmentProvisionDomainModel } from './appointment.domain.types';
 import { OrganizationDomainModel } from './organization.domain.model';
 
 export interface DoctorDomainModel {
@@ -20,5 +20,5 @@ export interface DoctorDomainModel {
     Locality?: string;
     Organizations?: OrganizationDomainModel[];
     Address?: AddressDomainModel;
-    AppointmentDetails?: AppointmentDomainModel;
+    AppointmentDetails?: AppointmentProvisionDomainModel;
 }

@@ -1,5 +1,5 @@
 
-export interface AppointmentDomainModel {
+export interface AppointmentProvisionDomainModel {
     ProviderType: string;
     ProviderId? : string;
     ProviderOrganizationId?: string;
