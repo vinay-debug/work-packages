@@ -10,21 +10,10 @@ export interface AddressDomainModel {
     State?: string;
     Country?: string;
     PostalCode?: string;
-    LocationCoordsLongitude?: number;
-    LocationCoordsLattitude?: number;
+    Location?: GeoLocation;
 };
 
-export interface AddressDto {
-    id: string;
-    Type: string;
-    UserId?: string;
-    OrganizationId?: string;
-    AddressLine: string;
-    City: string;
-    District: string;
-    State: string;
-    Country: string;
-    PostalCode: string;
-    LocationCoordsLongitude: number;
-    LocationCoordsLattitude: number;
-};
+export interface GeoLocation {
+    LocationCoords_Longitude: number;
+    LocationCoords_Lattitude: number;
+}
