@@ -1,37 +1,36 @@
 {
-    "Prefix": "Dr.",
-    "FirstName": "John",
-    "LastName": "Clark",
-    "Phone": "7231164961",
-    "Email": "John.23798.Clark@gmail.com",
-    "Gender": "Male",
-    "BirthDate": "1955-06-07T00:00:00.000Z",
-    "ImageURL": "https://reancare-api-dev.services.reanfoundation.org//resources/download-public/42a66c3e-68a5-44f8-8eae-e801d62c653c",
-    "Qualification": "LLB, MBBS, MCH. (NEUROSURGERY), FACS, FICS",
-    "Specialities": "Neurosurgery",
-    "AboutMe": "Dr. John Clark is one of the finest neuro surgeons in India.",
-    "ProfessionalHighlights": "* He has 14 awards to his credit and 103 scientific publications.",
-    "PractisingSince": "2015-06-07T00:00:00.000Z",
+    "Prefix": "Miss.",
+    "FirstName": "Sarah",
+    "LastName": "Robinson",
+    "Phone": "8265596983",
+    "Email": "Sarah.53252.Robinson@gmail.com",
+    "Gender": "Female",
+    "BirthDate": "2004-06-07T00:00:00.000Z",
+    "ImageURL": "https://reancare-api-dev.services.reanfoundation.org//resources/download-public/c845a245-a22c-4f18-9df9-db7b2da577f8",
+    "Specialities": "Pathology",
     "Organizations": [
         {
-            "Type": "Hospital",
-            "Name": "Woodlands Multispeciality Hospital, Pune",
+            "Type": "Pathology-Lab",
+            "Name": "Excellent Diagnostic Labs, Pune",
+            "AboutUs": "Life Labs is a leading blood test laboratory of India to book test online for home collection and check lab test results with just a couple of clicks.",
+            "OperationalSince": "2010-06-10T00:00:00.000Z",       
             "ContactPhone": "1233232343",
-            "ContactEmail": "patient.support.woodlands@wmh.com"
+            "ContactEmail": "excellent.diagnostics@gmail.com",
+            "Address": {}
         }
     ],
     "Locality": "Pune",
     "Address": {
         "Type": "Official",
-        "AddressLine": "Sky Loft, Creaticity Mall, Off, Airport Rd, opposite Golf Course, Shastrinagar, Yerawada",
+        "AddressLine": "Gold Adlabs Mariplex Mall, Ground Floor, next to Axis Bank, Kalyani Nagar",
         "City": "Pune",
         "District": "Pune",
         "State": "Maharashtra",
         "Country": "India",
         "PostalCode": "411006",
         "Location": {
-            "LocationCoords_Longitude": "73.894522",
-            "LocationCoords_Lattitude": "18.556303"
+            "LocationCoords_Longitude": "73.894525",
+            "LocationCoords_Lattitude": "18.556302"
         }
     },
     "AppointmentDetails": {
